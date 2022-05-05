@@ -58,14 +58,14 @@ li > a {
     height: 35vh;    
 }
 
-.text > h1 {
+.first-section > .container > .text > h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
     margin: 0;
 }
 
-.text > p {
+.first-section > .container > .text > p {
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
@@ -129,4 +129,97 @@ li > a {
 .card {
     width: 150px;
     text-align: center;
+}
+
+
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section > .container {
+    width: 800px;
+}
+
+.container > .phrase {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.container > .author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+
+.fourth-section {
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section > .container {
+    display: flex;
+    width:  1000px;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    align-items: center;
+}
+
+
+.fourth-section > .container > button {
+    padding: 8px 32px;
+    font-size: 18px;
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: solid 2px white;
+}
+
+.fourth-section > .container > .text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.fourth-section > .container > .text > h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.fourth-section > .container > .text > p {
+    margin: 0;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 80px;
+}
+
+.footer > .copyright {
+    font-size: 18px;
+    color: #e5e7eb;
 }
